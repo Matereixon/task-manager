@@ -1,0 +1,37 @@
+<div>
+    <h2>Criar/Editar Tarefa</h2>
+  
+    <form>
+      <div>
+        <label for="title">Título:</label>
+        <input id="title" formControlName="title" type="text" />
+      </div>
+  
+      <div>
+        <label for="description">Descrição:</label>
+        <input id="description" formControlName="description" type="text" />
+      </div>
+  
+      <div>
+        <label for="responsible">Responsável:</label>
+        <input id="responsible" formControlName="responsible" type="text" />
+      </div>
+  
+      <div>
+        <label for="priority">Prioridade:</label>
+        <select id="priority" formControlName="priority">
+          <option value="HIGH">Alta</option>
+          <option value="MEDIUM">Média</option>
+          <option value="LOW">Baixa</option>
+        </select>
+      </div>
+  
+      <div>
+        <label for="deadline">Deadline:</label>
+        <input id="deadline" formControlName="deadline" type="date" />
+      </div>
+  
+      <button type="submit">Salvar</button>
+    </form>
+  </div>
+  
